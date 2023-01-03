@@ -50,7 +50,7 @@
                             <td class=""><b>Name:</b></td>
                         </tr>
                         <tr>
-                            <td class="">Bui Van Quan</td>
+                            <td class="">&nbsp;Bui Van Quan</td>
                         </tr>
                         <tr>
                             <td class=""><b>Age:</b></td>
@@ -62,12 +62,12 @@
                             <td class=""><b>Location:</b></td>
                         </tr>
                         <tr>
-                            <td class="">Saitama, Japan</td>
+                            <td class="">&nbsp;Saitama, Japan</td>
                         </tr>
                         <tr>
                             <td class="">
                                 <a href="https://github.com/quanultra" target="_blank"
-                                    rel="noopener noreferrer">Github</a>・<a
+                                    rel="noopener noreferrer">Github</a>, <a
                                     href="https://www.facebook.com/minh.quan.338211/" target="_blank"
                                     rel="noopener noreferrer">Facebook</a>
                             </td>
@@ -79,17 +79,18 @@
     </div>
 
     <footer class="text-center text-lg-start fixed-bottom">
-        <div class="text-center p-3" style="background-color: rgba(161, 161, 161, 0.2);">
+        <div class="text-center p-2" style="background-color: rgba(232, 232, 232, 0.2);">
             © 2023 Power by <a target="_blank" class="text-dark" href="http://www.quanbui.de">@cafeint</a>
         </div>
     </footer>
+
     <script>
         var date_of_birth = new Date("10/01/1994");
         var month_diff = Date.now() - date_of_birth.getTime();
         var age_dt = new Date(month_diff);
         var year = age_dt.getUTCFullYear();
         var age = Math.abs(year - 1970);
-        document.getElementById('now-age').innerHTML = `${age} years`
+        document.getElementById('now-age').innerHTML = `&nbsp;${age} years`
     </script>
 </body>
 
