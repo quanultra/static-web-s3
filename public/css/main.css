@@ -1,14 +1,14 @@
 body {
     font-family: 'SF Mono', Segoe UI, sans-serif !important;
-}
-
-#main {
-    width: 60%;
-    height: 100%;
-    margin: auto;
+    background: white;
+    color: black;
 }
 
 .profile {
     text-align: center;
-    margin: 0, 10em;
+}
+
+body a {
+    text-decoration: underline;
+    color: lightsalmon;
 }
