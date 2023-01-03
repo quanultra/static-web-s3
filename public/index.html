@@ -5,12 +5,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample HTML</title>
+    <title>Quan Bui's Homepage</title>
+
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <script src="./js/jquery-3.6.3.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-    <h1>Deploy static website to S3 using Github actions.</h1>
-    <h5>Power by @cafeint</h5>
+    <div class="container mt-3">
+        <h2 class="profile mb-5" style="font-weight: 600;">Quan Bui's Homepage</h2>
+        <div class="row align-items-top">
+            <div class="col-md-4" style="text-align: right;">
+                <h5>About me</h5>
+                <p>
+                    Hi. I am a software engineer, <br>
+                    I'm currently working in Japan <br>
+                    as BrSE.
+                </p>
+            </div>
+            <div class="col-md-4" style="text-align: center;">
+                <img style="margin: 10px auto; border-radius: 8px;" src="./img/QuanPhoto1.png" alt="photo" width="200"
+                    height="200">
+            </div>
+            <div class="col-md-4">
+                <h5>Details</h5>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class=""><b>Name:</b></td>
+                        </tr>
+                        <tr>
+                            <td class="">Bui Van Quan</td>
+                        </tr>
+                        <tr>
+                            <td class=""><b>Age:</b></td>
+                        </tr>
+                        <tr>
+                            <td id="now-age">xx years</td>
+                        </tr>
+                        <tr>
+                            <td class=""><b>Location:</b></td>
+                        </tr>
+                        <tr>
+                            <td class="">Saitama, Japan</td>
+                        </tr>
+                        <tr>
+                            <td class="">
+                                <a href="https://github.com/quanultra" target="_blank"
+                                    rel="noopener noreferrer">Github</a>・<a
+                                    href="https://www.facebook.com/minh.quan.338211/" target="_blank"
+                                    rel="noopener noreferrer">Facebook</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center text-lg-start fixed-bottom">
+        <div class="text-center p-3" style="background-color: rgba(161, 161, 161, 0.2);">
+            © 2023 Power by <a target="_blank" class="text-dark" href="http://www.quanbui.de">@cafeint</a>
+        </div>
+    </footer>
+    <script>
+        var date_of_birth = new Date("10/01/1994");
+        var month_diff = Date.now() - date_of_birth.getTime();
+        var age_dt = new Date(month_diff);
+        var year = age_dt.getUTCFullYear();
+        var age = Math.abs(year - 1970);
+        document.getElementById('now-age').innerHTML = `${age} years`
+    </script>
 </body>
 
 </html>
