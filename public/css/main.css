@@ -1,0 +1,14 @@
+body {
+    font-family: 'SF Mono', Segoe UI, sans-serif !important;
+}
+
+#main {
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
+.profile {
+    text-align: center;
+    margin: 0, 10em;
+}
