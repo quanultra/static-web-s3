@@ -9,6 +9,13 @@ body {
 }
 
 body a {
-    text-decoration: underline;
-    color: lightsalmon;
+    text-decoration: none;
+    padding: 2px 2px 2px 2px;
+    color: #333;
+    background-color: #eaeaea;
+    line-height: inherit;
+}
+
+body a:hover {
+    text-decoration: none;
 }
