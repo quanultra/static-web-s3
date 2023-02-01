@@ -10,10 +10,12 @@ body {
 
 body a {
     text-decoration: none;
-    padding: 2px 2px 2px 2px;
+    padding: 0px 3px 2px;
     color: #333;
     background-color: #eaeaea;
     line-height: inherit;
+    border-radius: 4px;
+    font-size: 15px;
 }
 
 body a:hover {
