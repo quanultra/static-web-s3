@@ -3,7 +3,6 @@ body {
     background: #1f1f1f !important;
     color: #f5f5f5 !important;
     font-size: 15px !important;
-    max-width: 1400px;
 }
 
 .profile {
@@ -25,7 +24,7 @@ body a {
     background-color: #432f0f;
     line-height: inherit;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 body a:hover {
