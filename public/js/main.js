@@ -3,6 +3,6 @@ setTimeout(function () {
         $('#loading').addClass("hide-loading");
         setTimeout(function() {
             $('#loading').remove();
-        }, 2000)
+        }, 1000)
     }
-}, 1500)
+}, 1000)
