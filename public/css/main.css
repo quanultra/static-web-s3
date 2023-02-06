@@ -117,8 +117,8 @@ body a:hover {
 }
 
 .hide-loading {
-    -webkit-animation: fadeinout 1.5s linear forwards;
-    animation: fadeinout 1.5s linear forwards;
+    -webkit-animation: fadeinout 1s linear forwards;
+    animation: fadeinout 1s linear forwards;
 }
 
 @keyframes fadeinout {
