@@ -134,3 +134,21 @@ body a:hover {
         opacity: 0;
     }
 }
+
+.outer {
+    display: table;
+    width: auto;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.center-text {
+    text-align: center;
+}
