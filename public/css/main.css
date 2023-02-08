@@ -26,7 +26,7 @@ body {
 
 body a {
     text-decoration: none;
-    padding: 0px 3px 2px;
+    padding: 2px 3px 3px;
     color: #fff;
     background-color: #432f0f;
     line-height: inherit;
@@ -39,7 +39,8 @@ body a:hover {
 }
 
 .page-foot {
-    font-size: 13px;
+    font-size: 12px;
+    background-color: #232f3e;
 }
 
 #loading {
@@ -144,12 +145,4 @@ body a:hover {
 .middle {
     display: table-cell;
     vertical-align: middle;
-}
-
-.left-text {
-    text-align: left;
-}
-
-.center-text {
-    text-align: center;
 }
