@@ -5,9 +5,10 @@
 
 body {
     font-family: "Amazon Ember" !important;
-    background: #1f1f1f !important;
+    background: #19222e !important;
     color: #f5f5f5 !important;
     font-size: 15px !important;
+    background-image: url("../img/grid.svg") !important;
 }
 
 .profile {
@@ -25,20 +26,42 @@ body {
 
 body a {
     text-decoration: none;
-    padding: 0px 3px 2px;
+    padding: 2px 3px 3px;
     color: #fff;
-    background-color: #432f0f;
+    background-color: #ec72114a;
     line-height: inherit;
-    border-radius: 4px;
+    border-radius: 2px;
     font-size: 13px;
 }
 
 body a:hover {
     text-decoration: none;
+    color: #c5c5c5;
 }
 
-.page-foot {
-    font-size: 13px;
+#cc {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 40px !important;
+}
+
+#page-foot {
+    font-size: 12px;
+    background-color: #232f3e;
+    position: fixed;
+    bottom: 0;
+    z-index: 1002;
+}
+
+html,
+body,
+#cc,
+#page-foot {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    width: 100%;
 }
 
 #loading {
@@ -48,7 +71,7 @@ body a:hover {
     width: 100%;
     height: 100%;
     z-index: 1000;
-    background: #1f1f1f;
+    background: #19222e;
     display: block;
 }
 
@@ -74,21 +97,21 @@ body a:hover {
     left: 0%;
     top: 0%;
     animation: rotate-one 1s linear infinite;
-    border-bottom: 3px solid #EFEFFA;
+    border-bottom: 3px solid #ec7211;
 }
 
 .inner.two {
     right: 0%;
     top: 0%;
     animation: rotate-two 1s linear infinite;
-    border-right: 3px solid #EFEFFA;
+    border-right: 3px solid #ec7211;
 }
 
 .inner.three {
     right: 0%;
     bottom: 0%;
     animation: rotate-three 1s linear infinite;
-    border-top: 3px solid #EFEFFA;
+    border-top: 3px solid #ec7211;
 }
 
 @keyframes rotate-one {
@@ -130,6 +153,7 @@ body a:hover {
     0% {
         opacity: 1;
     }
+
     100% {
         opacity: 0;
     }
@@ -143,12 +167,5 @@ body a:hover {
 .middle {
     display: table-cell;
     vertical-align: middle;
-}
-
-.left-text {
-    text-align: left;
-}
-
-.center-text {
-    text-align: center;
+    padding: 12px;
 }
