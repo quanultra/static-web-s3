@@ -53,34 +53,19 @@
                 <table>
                     <tbody>
                         <tr>
-                            <td class="">Name:</td>
+                            <td class="">Name: Bui Van Quan</td>
                         </tr>
                         <tr>
-                            <td class="">&nbsp;Bui Van Quan</td>
+                            <td id="now-age"></td>
                         </tr>
                         <tr>
-                            <td class="">Age:</td>
+                            <td class="">Location: Saitama, Japan</td>
                         </tr>
                         <tr>
-                            <td id="now-age">xx years</td>
+                            <td class="">Pronouns: he/him/his</td>
                         </tr>
                         <tr>
-                            <td class="">Location:</td>
-                        </tr>
-                        <tr>
-                            <td class="">&nbsp;Saitama, Japan</td>
-                        </tr>
-                        <tr>
-                            <td class="">Pronouns:</td>
-                        </tr>
-                        <tr>
-                            <td class="">&nbsp;He/Him/His</td>
-                        </tr>
-                        <tr>
-                            <td class="">Fun fact:</td>
-                        </tr>
-                        <tr>
-                            <td class="">&nbsp;I love you</td>
+                            <td class="">Fun fact: I love you</td>
                         </tr>
                         <tr>
                             <td class="">---------------------------</td>
@@ -103,7 +88,7 @@
         <!-- Image galery -->
         <div class="row mt-3">
             <div style="text-align: center; width: 100%;">
-                <p style="font-size: 20px; font-style: italic;">Opinions are my own.</p>
+                <p style="font-size: 20px;">Opinions are my own.</p>
             </div>
         </div>
     </div>
@@ -124,7 +109,7 @@
         var age_dt = new Date(month_diff);
         var year = age_dt.getUTCFullYear();
         var age = Math.abs(year - 1970);
-        document.getElementById('now-age').innerHTML = `&nbsp;${age} years`
+        document.getElementById('now-age').innerHTML = `Age: ${age} years`
     </script>
 </body>
 
