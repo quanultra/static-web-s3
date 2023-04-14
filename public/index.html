@@ -27,18 +27,11 @@
 </head>
 
 <body>
-    <div id="loading">
-        <div class="loader">
-            <div class="inner one"></div>
-            <div class="inner two"></div>
-            <div class="inner three"></div>
-        </div>
-    </div>
     <div id="cc" class="container mt-3">
         <p class="profile">
             <strong>
                 quan bui's
-                    <br>
+                <br>
                 homepage
             </strong>
         </p>
@@ -61,19 +54,13 @@
                 <table class="middle text-left">
                     <tbody>
                         <tr>
-                            <td>Name: Bui Van Quan</td>
-                        </tr>
-                        <tr>
-                            <td id="now-age"></td>
-                        </tr>
-                        <tr>
-                            <td>Location: Saitama, Japan</td>
+                            <td>Name: Quan Bui</td>
                         </tr>
                         <tr>
                             <td>Pronouns: he/ him/ his</td>
                         </tr>
                         <tr>
-                            <td>Fun fact: I love you &#9786;</td>
+                            <td>Fun fact: I LOVE YOU &#9786;</td>
                         </tr>
                         <tr>
                             <td>-----------------------------</td>
@@ -106,15 +93,6 @@
             © 2023 Powered by <i>@cafeint</i>
         </div>
     </footer>
-
-    <script>
-        var date_of_birth = new Date("10/01/1994");
-        var month_diff = Date.now() - date_of_birth.getTime();
-        var age_dt = new Date(month_diff);
-        var year = age_dt.getUTCFullYear();
-        var age = Math.abs(year - 1970);
-        document.getElementById('now-age').innerHTML = `Age: ${age} years`
-    </script>
 </body>
 
 </html>
