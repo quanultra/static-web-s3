@@ -1,24 +1,23 @@
 @font-face {
-    font-family: "Amazon Ember";
-    src: url("../font/Amazon\ Ember.ttf") format("truetype");
+    font-family: "TT Hoves";
+    src: url("../font/TT\ Hoves\ Regular.otf") format("opentype");
 }
 
 body {
-    font-family: "Amazon Ember" !important;
-    background: #19222e !important;
-    color: #f5f5f5 !important;
-    font-size: 15px !important;
-    background-image: url("../img/grid.svg") !important;
+    /* background-image: url("../img/grid.svg") !important; */
+    font-family: "TT Hoves" !important;
+    color: #020c13 !important;
+    font-size: 19px !important;
 }
 
-.profile {
-    font-size: 2.5rem;
+.profile-text {
+    font-size: 3rem;
     text-align: center;
     width: fit-content;
     background-clip: text;
     color: #ad68ff;
     -webkit-background-clip: text;
-    background-image: linear-gradient(90deg,#e1cdff,#ad68ff 40%,#9d4dff);
+    background-image: linear-gradient(90deg, #e1cdff, #ad68ff 40%, #9d4dff);
     background-size: 100% 300%;
     background-position: 50% 0;
     font-style: normal;
@@ -33,12 +32,11 @@ body {
 
 body a {
     text-decoration: none;
-    padding: 2px 3px 3px;
-    color: #fff;
-    background-color: #ec72114a;
+    padding: 4px 5px 4px;
+    color: #020c13;
+    background-color: #F1F3FF;
     line-height: inherit;
     border-radius: 2px;
-    font-size: 13px;
 }
 
 body a:hover {
@@ -55,7 +53,8 @@ body a:hover {
 
 #page-foot {
     font-size: 12px;
-    background-color: #232f3e;
+    background-color: #020c13;
+    color: #fff;
     position: fixed;
     bottom: 0;
     z-index: 1002;
@@ -83,5 +82,57 @@ body,
 }
 
 img {
-    padding: 22px;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.overlay-picture-wrapper {
+    position: relative;
+}
+
+.team-overlay_picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay_picture-shape {
+    background-color: #fff;
+    position: absolute;
+}
+
+.cc-1 {
+    width: 10%;
+    height: 20%;
+    top: 0%;
+    bottom: auto;
+    left: auto;
+    right: 0%;
+}
+
+.cc-2 {
+    width: 30%;
+    height: 20%;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+}
+
+.cc-3 {
+    width: 10%;
+    height: 15%;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+}
+
+.cc-4 {
+    width: 15%;
+    height: 15%;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
 }
