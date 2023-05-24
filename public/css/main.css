@@ -8,11 +8,11 @@ body {
     font-family: "TT Hoves" !important;
     background: #fff;
     color: #020c13 !important;
-    font-size: 16px !important;
+    font-size: 19px !important;
 }
 
 .profile-text {
-    font-size: 2.5rem;
+    font-size: 3rem;
     text-align: center;
     width: fit-content;
     background-clip: text;
@@ -33,9 +33,9 @@ body {
 
 body a {
     text-decoration: none;
-    padding: 2px 3px 3px;
+    padding: 4px 5px 4px;
     color: #020c13;
-    background-color: #ec72114a;
+    background-color: #F1F3FF;
     line-height: inherit;
     border-radius: 2px;
     font-size: 13px;
@@ -119,4 +119,22 @@ img {
     bottom: 0%;
     left: auto;
     right: 0%;
+}
+
+.cc-3 {
+    width: 10%;
+    height: 15%;
+    top: auto;
+    bottom: 0%;
+    left: 0%;
+    right: auto;
+}
+
+.cc-4 {
+    width: 15%;
+    height: 15%;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
 }
